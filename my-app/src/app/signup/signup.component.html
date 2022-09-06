@@ -1,0 +1,33 @@
+<div id="body">
+    <div id="container">
+      <div class="login">
+    <form #myForm="ngForm">
+        <h1>Sign-Up</h1>
+        <hr>
+        <p>Welcome! to SignUp page</p>
+          <label for="exampleInputEmail1">Full Name</label>
+          <input type="text" class="form-control" name="fname"  aria-describedby="emailHelp" placeholder="Enter Full name" [(ngModel)]="userObj.fname">
+    
+      
+      
+          <label for="exampleInputEmail1">Mobile Number</label>
+          <input type="text" class="form-control" name="mob" aria-describedby="emailHelp" placeholder="Enter Mobile" [(ngModel)]="userObj.mob">
+    
+
+
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email" [(ngModel)]="userObj.email">
+    
+   
+
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" name="password" placeholder="Password" [(ngModel)]="userObj.password">
+    
+     
+        <button type="button"  (click)="addUser(myForm.value)">Submit</button>
+    <a routerLink="/admin-login">Already registered! Click to Login</a>
+      </form>    
+
+    </div>
+</div>
+</div>

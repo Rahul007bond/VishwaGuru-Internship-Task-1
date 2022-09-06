@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "fname": "Rahul Rajpurohit",
+      "email": "a@gmail.com",
+      "mob": "9807612321",
+      "password": "test12345",
+      "id": 1
+    }
+  ],
+  "admin": [
+    {
+      "fname": "rahul",
+      "mob": "123212",
+      "email": "adminuser@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+   
+    {
+      "fname": "Rahul Rajpurohit",
+      "mob": "1",
+      "email": "1",
+      "password": "1",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<div id="body">
+    <div id="container">
+      <div class="login">
+    <form [formGroup]="signUpform" (ngSubmit)="register()">
+        <h1>Register</h1>
+        <hr>
+        <p>Welcome! to Registration Page</p>
+          <label for="exampleInputEmail1">Full Name</label>
+          <input type="text" class="form-control" formControlName="fname"  aria-describedby="emailHelp" placeholder="Enter Full name" >
+    
+      
+      
+          <label for="exampleInputEmail1">Mobile Number</label>
+          <input type="text" class="form-control" formControlName="mob" aria-describedby="emailHelp" placeholder="Enter Mobile">
+    
+
+
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" formControlName="email" aria-describedby="emailHelp" placeholder="Enter email" >
+    
+   
+
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" formControlName="password" placeholder="Password" >
+    
+     
+        <button type="submit"  >Submit</button>
+    <a routerLink="/login">Already registered! Click to Login</a>
+      </form>    
+
+    </div>
+</div>
+</div>
